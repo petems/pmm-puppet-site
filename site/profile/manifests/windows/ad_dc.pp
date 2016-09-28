@@ -6,7 +6,7 @@ class profile::windows::ad_dc(
   $safemode_admin_password = 'Puppet123',
 ) {
 
-  validate_re($domain_name, '\.', "domain_name of '#{domain_name}' cannot be a top level domain or empty")
+  validate_re($domain_name, '\.', "domain_name of '$domain_name' cannot be a top level domain or empty")
   
   if $facts['msad_is_domain_controller'] == 'False' {
 
