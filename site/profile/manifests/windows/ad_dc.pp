@@ -1,5 +1,5 @@
 class profile::windows::ad_dc(
-  $domain_name = '',
+  $domain_name = lookup('profile::windows::ad_dc::domain_name', {value_type => String, default_value => ''})
   $domain_admin_username = 'Administrator',
   $domain_admin_password = 'Puppet123',
   $safemode_admin_username = 'Administrator',
