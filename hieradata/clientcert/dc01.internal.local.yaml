@@ -1,3 +1,2 @@
 ---
-profile::windows::ad_dc:
-  domain_name: "something.local"
+profile::windows::ad_dc:domain_name: 'something.local'
