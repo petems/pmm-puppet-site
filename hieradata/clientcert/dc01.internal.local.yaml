@@ -1,0 +1,3 @@
+---
+profile::windows::ad_dc
+  domain_name: "something.local"

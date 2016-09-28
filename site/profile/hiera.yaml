@@ -5,7 +5,7 @@
 :hierarchy:
   - "clientcert/%{clientcert}"
   - "environment/%{environment}"
-  - "datacenter/%{datacenter}"
+  - "domain/%{domain}"
   - "common"
 
 :yaml:
